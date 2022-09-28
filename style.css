@@ -1,8 +1,11 @@
 @font-face {
     font-family: Hali;
     src: url("Halittany Badela.ttf");
+}
 
-
+@font-face {
+    font-family: Lili;
+    src: url("LinLibertine_aDRS.ttf");
 }
 
 *
@@ -19,7 +22,8 @@ body
     margin:0 auto;
     height: 100vh;
     max-width: 900px;
-    background: linear-gradient(135deg,#523f33, #31251e) repeat;
+    background: url("bg.png");
+    /*background: linear-gradient(135deg,#523f33, #31251e) repeat;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +48,8 @@ div#cabecalho
     font-weight: 100;
     line-height: 85px;
     color: #1c1611;
+    margin-top: 10px;
+    padding: 5px;
 }
 
 #cabecalho h1
@@ -64,7 +70,7 @@ div.card
     padding: 5px;
     max-width: 680px;
     max-height: 350px;
-    background-color: #31251e;
+    background-color: #382723;
     display:flex;
     transition: max-width 1s;
     border: 2px dashed rgba(215, 190, 137, 0.4);
@@ -109,14 +115,11 @@ img
 
 }
 
-
-
-
 .card .titulo h2
 {
     color: rgba(215, 190, 137, 0.5);
     font-size: 30px;
-    font-family: Century,sans-serif;
+    font-family: Lili,sans-serif;
     text-align: left;
     font-weight: 100;
     height: 100%;
@@ -161,7 +164,7 @@ footer#links ul li a:hover
     body
     {
         margin: auto;
-        height: 1600px;
+        height: 1400px;
         flex-direction: column;
 
     }
@@ -179,7 +182,7 @@ footer#links ul li a:hover
         overflow:hidden;
         box-sizing: border-box;
         display: flex;
-        max-height: 1380px;
+        max-height: 1180px;
         max-width: 450px;
         flex-wrap: wrap;
         justify-content: center;
@@ -192,7 +195,6 @@ footer#links ul li a:hover
     div.card:hover
     {
         max-width: 500px;
-        margin: auto;
     }
 
     .card #texto
@@ -201,9 +203,15 @@ footer#links ul li a:hover
         margin: auto;
     }
 
+    .card #nometitulo h1
+    {
+        margin: auto;
+    }
+
     #cabecalho .nome
     {
-        font-size: 80px;
+        font-size: 90px;
+
     }
 
     #cabecalho h1
@@ -224,15 +232,21 @@ footer#links ul li a:hover
     body
     {
         margin: auto;
-        height: 2200px;
+        height: 1800px;
         flex-direction: column;
 
+    }
+
+    div#cabecalho
+    {
+        padding: 0;
+        margin: 25px;
     }
 
     .card img
     {
         display: block;
-        margin: 240px auto auto auto;
+        margin: 240px 0 0 0;
         max-width: 200px;
         height: auto;
     }
@@ -242,12 +256,12 @@ footer#links ul li a:hover
         overflow:hidden;
         box-sizing: border-box;
         display: flex;
-        max-height: 1800px;
-        width: 300px;
+        max-height: 1400px;
+        width: 340px;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin: auto;
+        margin: 2px;
         transition: max-width 200ms ease-in;
 
     }
@@ -256,11 +270,16 @@ footer#links ul li a:hover
     .card #texto
     {
         overflow: hidden;
-        margin: 0 auto auto auto;
+    }
+
+    .card #nometitulo h1
+    {
+        margin: auto;
     }
 
     #cabecalho .nome
     {
+
         font-size: 80px;
     }
 
@@ -268,6 +287,12 @@ footer#links ul li a:hover
     {
         font-size: 25px;
     }
+
+    .card .titulo h2
+    {
+        text-align: center;
+    }
+
     footer#links ul li
     {
         padding: 20px;
