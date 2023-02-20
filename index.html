@@ -2,43 +2,54 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA Compatible" content="IE-EDGE">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Pamela P. Rodrigues</title>
-</head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Righteous&display=swap');
+    </style>
 
+    <title>Página Principal</title>
+</head>
 <body>
 
-<div id="cabecalho">
-    <h1 class="nome">Pierrete</h1>
-    <h1>A Dev <wbr/>das cavernas</h1>
-</div>
-
-
-<div class="card">
-
-    <img src="budega.png" alt="foto-de-uma-desenvolvedora-web-de-óculos">
-    <div id="texto">
-        <div id="nometitulo"><h1><br/>Meu nome é <br/>Pâmela Rodrigues.</h1></div>
-    <div class="titulo">
-    <h2><p>Antes era técnica de informática. Restaurava sistemas, instalava e desinstalava programas,
-        trocava peças e tirava montes de poeira e baratas mortas dos compu<wbr/>tadores.</p>
-        <p>Atualmente estudo análise e desenvolvimento de sistemas e exploro lingua<wbr/>gens como C, C#, JAVA, Javascript e Python.</p>
-    </h2>
-
-    </div>
-    </div>
-</div>
-
-<footer id="links">
+<div class="cabecalho">
+<nav>
+    <a href="index.html"><img src="img/logobakbakone2.png" class="icone-menu"></a>
     <ul>
-        <li><a href="https://github.com/pierrete" target="_blank">MEU GITHUB</a></li>
-        <li><a href="https://www.linkedin.com/in/pamela-rodrigues-992024229" target="_blank">MEU LINKEDIN</a></li>
-        <li><a href="https://www.behance.net/pmelarodrigues" target="_blank">MEU BEHANCE</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="sobre.html">SOBRE</a></li>
+        <li><a href="projetos.html">PROJETOS</a></li><!--github cards-->
+        <li><a href="contato.html">CONTATO</a></li>
     </ul>
-</footer>
+
+
+
+
+</nav>
+
+    <div class="texto">
+        <h1><span class="digitado">Sou Pâmela P. Rodrigues</span></h1>
+        <p>Atualmente sou <mark> estudante</mark> do 3° período de <mark>Análise e Desenvolvimento de Sistemas.</mark><br>
+           Trabalho com as linguagens <mark>C, C#, Java e Javascript.</mark></p>
+
+        <a href="contato.html">Contato</a>
+        <a href="dc/CV.docx" class="btn">Currículo</a>
+    </div>
+    <img src="img/foto.png" class="foto-perfil">
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".digitado", {
+        strings: ["Sou Pamela P. Rodrigues","Estudante de Análise e...", "Desenvolvimento de Sistemas"],
+        typeSpeed:90,
+        backSpeed:20,
+        loop:true,
+    })
+</script>
 
 </body>
-
 </html>
