@@ -219,7 +219,14 @@ nav > ul > li > a:hover
 
 @media(max-width: 856px)
 {
-
+    .texto sobre
+    {
+        margin: 0;
+    }
+    .texto sobre > h1
+    {
+        margin: 0;
+    }
     .foto-perfil
     {
         position: absolute;
