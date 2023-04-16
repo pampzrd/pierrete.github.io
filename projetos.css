@@ -1,0 +1,57 @@
+.containerCSharp
+{
+    position: absolute;
+    max-width:400px;
+}
+
+.subt > mark
+{
+    padding: 0  5px;
+    color: rgb(35, 33, 33);
+    background-color: #ffffff;
+}
+
+.containerCSharp > a
+{
+
+    border-radius: 5px;
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.containerCSharp > a:hover
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.galeria
+{
+    float: right;
+    max-width:370px;
+    max-height: 100%;
+    margin: 10px 0;
+}
+
+.img-proj
+{
+    width: 95%;
+    height: 100%;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
+}
+
+.inativos
+{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width: 756px)
+{
+    .img-proj
+    {
+        visibility: hidden;
+
+    }
+
+}

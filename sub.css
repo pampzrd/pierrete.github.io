@@ -17,8 +17,7 @@ body
 {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(135deg, #ff0032, #260c0c, #170000);;
-    padding: 10%;
+    background: linear-gradient(135deg, #ff0032, #260c0c, #170000);
     color: #fff;
 }
 
@@ -40,6 +39,7 @@ hr
 {
     width: 160px;
     cursor: pointer;
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.5));
 }
 
 nav > ul
@@ -91,6 +91,7 @@ nav > ul > li > a:hover
     font-weight: 600;
     padding: 3px;
     background-color: #ffffff;
+    color: rgb(35, 33, 33);
 }
 
 .texto p a
@@ -98,7 +99,7 @@ nav > ul > li > a:hover
     text-decoration: none;
     letter-spacing: 1px;
     font-size: 17px;
-    color: #acc8f8;
+    color: rgba(17, 17, 17, 0.68);
     border: solid #98130a 2px;
 
 }
@@ -121,13 +122,13 @@ nav > ul > li > a:hover
     font-size: 65px;
     line-height: 160px;
     font-family: 'Righteous', cursive;
+    filter: drop-shadow(2px 7px 5px rgba(30, 30, 30, 0.3));
 
 }
 
 .texto > a
 {
     margin-top: 30px;
-    display: inline-block;
     border-radius: 13px;
     padding: 10px 30px;
     text-decoration: none;
@@ -141,12 +142,10 @@ nav > ul > li > a:hover
     font-weight: 600;
 }
 
-.img-proj
-{
-    margin: 10px 0;
-    width: 340px;
-    height: 100%;
-}
+
+
+
+
 
 @media (max-width: 1600px) {
     .cabecalho
