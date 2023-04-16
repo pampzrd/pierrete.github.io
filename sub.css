@@ -10,14 +10,14 @@
 body
 {
     max-width: 1980px;
-    background: #0f293b;
+    background: #260c0c;
 }
 
 .cabecalho
 {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(135deg,#193549, #0f293b);
+    background: linear-gradient(135deg, #ff0032, #260c0c, #170000);;
     padding: 10%;
     color: #fff;
 }
@@ -60,14 +60,15 @@ nav > ul > li
 nav > ul > li > a
 {
     text-decoration: none;
-    color: #71b7e6;
+    color: #fff;
     letter-spacing: 1px;
     font-size: 17px;
 }
 
 nav > ul > li > a:hover
 {
-    color: #fff;
+    font-weight: bold;
+    box-shadow: 4px 1px 49px 1px rgb(255, 255, 255,0.2);
 }
 
 
@@ -88,14 +89,25 @@ nav > ul > li > a:hover
 .texto p mark
 {
     font-weight: 600;
+    padding: 3px;
+    background-color: #ffffff;
 }
 
 .texto p a
 {
     text-decoration: none;
-    color: #71b7e6;
     letter-spacing: 1px;
     font-size: 17px;
+    color: #acc8f8;
+    border: solid #98130a 2px;
+
+}
+
+.texto p a:hover
+{
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 4px 1px 49px 1px rgb(189, 81, 81);
 }
 
 .sobre
@@ -119,13 +131,19 @@ nav > ul > li > a:hover
     border-radius: 13px;
     padding: 10px 30px;
     text-decoration: none;
-    color: #71b7e6;
-    border: 2px solid #71b7e6;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.texto > a:hover
+{
+    box-shadow: 4px 1px 49px 1px rgb(189, 81, 81);
+    font-weight: 600;
 }
 
 .img-proj
 {
-    margin: 5px;
+    margin: 10px 0;
     width: 340px;
     height: 100%;
 }
@@ -186,8 +204,7 @@ nav > ul > li > a:hover
         border-radius: 13px;
         padding: 5px 10px;
         text-decoration: none;
-        color: #71b7e6;
-        border: 2px solid #71b7e6;
+
     }
 
 
