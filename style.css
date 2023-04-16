@@ -159,11 +159,7 @@ nav > ul > li > a:hover
     {
         padding: 5%;
     }
-    .foto-perfil
-    {
-        width: 320px;
 
-    }
 
     .texto
     {
@@ -186,9 +182,8 @@ nav > ul > li > a:hover
 
     .foto-perfil
     {
-        width: 220px;
         position: absolute;
-        left: 70%;
+        left: 60%;
         top:40%;
 
     }
@@ -209,20 +204,30 @@ nav > ul > li > a:hover
     }
 }
 
-@media(max-width: 1072px)
+@media(max-width: 1086px)
 {
+
     .foto-perfil
     {
-       visibility: hidden;
+        position: absolute;
+        left: 64%;
+        top:40%;
 
     }
-
 
 }
 
 @media(max-width: 856px)
 {
 
+    .foto-perfil
+    {
+        position: absolute;
+        left: 20%;
+        top:40%;
+        width: 25%;
+
+    }
     nav > ul > li
     {
         list-style: none;
