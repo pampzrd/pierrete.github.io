@@ -123,6 +123,13 @@ nav > ul > li > a:hover
     border: 2px solid #71b7e6;
 }
 
+.img-proj
+{
+    margin: 5px;
+    width: 340px;
+    height: 100%;
+}
+
 @media (max-width: 1600px) {
     .cabecalho
     {
@@ -182,6 +189,7 @@ nav > ul > li > a:hover
         color: #71b7e6;
         border: 2px solid #71b7e6;
     }
+
 
 
 }
